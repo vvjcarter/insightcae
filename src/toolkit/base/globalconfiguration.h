@@ -152,7 +152,7 @@ public:
 
         doc.append_node(rootnode);
 
-        ofstream f(file.string());
+        boost::filesystem::ofstream f(file.string());
         f << doc;
     }
 
