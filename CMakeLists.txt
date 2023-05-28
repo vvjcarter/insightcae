@@ -9,6 +9,7 @@ enable_language (C)
 enable_language (CXX)
 enable_language (Fortran OPTIONAL)
 
+SET(CMAKE_CXX_STANDARD 14)
 
 if(WIN32)
  add_link_options(LINKER:--export-all-symbols)
